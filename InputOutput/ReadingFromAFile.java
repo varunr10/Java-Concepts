@@ -11,12 +11,12 @@ public class ReadingTextFromFile {
 
 		StringBuilder text = new StringBuilder();
     
-    /*FileInputStream object inputs the actual file into a stream,
-    which InputStreamReader uses UTF-8(Default for Linux) Character encryption on. 
-    Then it is used by Buffered Reader for performance improvement*/
+	   	 /*FileInputStream object inputs the actual file into a stream,
+	  	  which InputStreamReader uses UTF-8(Default for Linux) Character encryption on. 
+	  	  Then it is used by Buffered Reader for performance improvement*/
 		try(BufferedReader bf = new BufferedReader(new 
 				InputStreamReader(new 
-						FileInputStream("src/inputoutput/sampleText.txt"),"UTF-8"))){
+						FileInputStream("src/inputoutput/text/sampleText.txt"),"UTF-8"))){
 
 			String line;
 			while((line = bf.readLine()) != null) {
