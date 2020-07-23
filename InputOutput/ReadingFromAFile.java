@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//this is a comment
 public class ReadingTextFromFile {
 
 	public static void main(String args[]) {
